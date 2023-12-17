@@ -17,7 +17,6 @@ class System:
         self.app=QApplication(sys.argv)
         self.window=MyWindow(self.game_manager)
     def run(self):
-        self.game_manager.start_game()
         sys.exit(self.app.exec_())
 
 if __name__ == '__main__':
